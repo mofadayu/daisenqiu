@@ -1,6 +1,6 @@
 :abc
 git add .
 git commit -m autosave
-git push -u origin main
-timeout /t 60
+git push
+timeout /t 300
 goto abc
